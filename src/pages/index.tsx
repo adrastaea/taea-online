@@ -38,6 +38,9 @@ export default function Home() {
             </a>
           </p>
         </div>
+        <div className="container flex flex-col absolute bottom-6 items-center justify-center gap-6 px-4 py-16 ">
+          <p className="text-2xl text-white">(Under Construction)</p>
+        </div>
       </main>
     </>
   );
