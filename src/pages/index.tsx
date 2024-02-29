@@ -15,11 +15,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center gap-4">
-        <h1 className="container border-2 border-red-700 p-4 pt-64 text-center text-5xl font-bold sm:text-6xl md:text-7xl">
-          taea.<span className="text-red-300">online</span>
+        <h1 className="container pt-64 text-center text-5xl font-bold sm:text-6xl md:text-7xl">
+          taea.<span className="text-pink-400">online</span>
         </h1>
-        <div className="container flex flex-auto flex-col border-2 border-red-700 p-4 2xl:flex-row">
-          <div className="flex flex-auto flex-col gap-4 border-2 border-green-700 p-4">
+        <div className="container flex flex-auto flex-col 2xl:flex-row">
+          <div className="flex flex-auto flex-col gap-4 p-4">
             <StyledCard className="flex flex-row">
               <div className="h-48 w-48 overflow-hidden rounded-full">
                 <Image src="/taea.png" alt="Taea" width={300} height={300} />
@@ -37,18 +37,28 @@ export default function Home() {
                 </div>
               </div>
             </StyledCard>
-            <StyledCard className="flex-auto border-2 border-blue-700">
-              <h1 className="flex-auto text-center text-5xl font-extrabold sm:text-[5rem]">
-                Summary
-              </h1>
+            <StyledCard className="flex-shrink">
+              <h3 className="p-4 pb-0 text-xl font-extrabold">Who Am I?</h3>
+              <p className="flex-auto p-4">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                dolorem quos commodi? Sed incidunt odio fuga recusandae iure
+                fugiat mollitia tenetur facere vel porro odit dolorum deleniti
+                exercitationem, ex harum, et illum. Voluptatem veritatis libero
+                optio sit ullam non praesentium?
+              </p>
             </StyledCard>
-            <StyledCard className="flex-auto border-2 border-blue-700">
+            <StyledCard className="flex-auto">
               <h1 className="text-center text-5xl font-extrabold sm:text-[5rem]">
                 Skills
               </h1>
             </StyledCard>
+            <StyledCard className="flex-auto">
+              <h1 className="text-center text-5xl font-extrabold sm:text-[5rem]">
+                Experiences
+              </h1>
+            </StyledCard>
           </div>
-          <div className="flex flex-auto flex-col gap-4 border-2 border-green-700 p-4">
+          <div className="flex flex-auto flex-col gap-4 p-4">
             <StyledCard className="flex flex-col gap-4">
               <h1 className="flex-auto text-center text-5xl font-extrabold sm:text-[5rem]">
                 Cal
