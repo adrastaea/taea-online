@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import Image from "next/image";
 import StyledCard from "~/components/cards";
+import SkillsTable from "~/components/skills";
 
 export default function Home() {
   return (
@@ -48,9 +49,18 @@ export default function Home() {
               </p>
             </StyledCard>
             <StyledCard className="flex-auto">
-              <h1 className="text-center text-5xl font-extrabold sm:text-[5rem]">
-                Skills
-              </h1>
+              <SkillsTable
+                skills={
+                  new Map([
+                    ["Python", 5],
+                    ["TypeScript", 2],
+                    ["C/C++", 3],
+                    ["Databases", 4],
+                    ["Kubernetes", 3],
+                    ["Project Management", 5],
+                  ])
+                }
+              />
             </StyledCard>
             <StyledCard className="flex-auto">
               <h1 className="text-center text-5xl font-extrabold sm:text-[5rem]">
