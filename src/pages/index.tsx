@@ -3,43 +3,46 @@ import Head from "next/head";
 import { api } from "~/utils/api";
 
 export default function Home() {
-  const hello = api.post.hello.useQuery({ text: "Thank you for visiting. This website is under construction." });
-
   return (
     <>
       <Head>
         <title>taea.online</title>
-        <meta name="description" content="Taea's personal website and portfolio" />
+        <meta
+          name="description"
+          content="Taea's personal website and portfolio"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-zinc-800 to-zinc-950">
-        <div className="container flex flex-col items-center justify-center gap-6 px-4 py-16 ">
-          <h1 className="text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-            Taea Vogel
-          </h1>
-          <p>
-            <a
-              href="https://www.linkedin.com/in/taea"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl text-white underline"
-            >
-              LinkedIn
-            </a>
-          </p>
-          <p>
-            <a
-              href="https://www.github.com/adrastaea"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-2xl text-white underline"
-            >
-              GitHub
-            </a>
-          </p>
-        </div>
-        <div className="container flex flex-col absolute bottom-6 items-center justify-center gap-6 px-4 py-16 ">
-          <p className="text-2xl text-white">(Under Construction)</p>
+      <main className="flex min-h-screen flex-col items-center justify-center gap-4">
+        <h1 className="container border-2 border-red-700 p-4 pt-64 text-center text-5xl font-bold sm:text-6xl md:text-7xl">
+          taea.<span className="text-red-300">online</span>
+        </h1>
+        <div className="container flex flex-auto flex-col border-2 border-red-700 p-4 2xl:flex-row">
+          <div className="flex flex-auto flex-col gap-4 border-2 border-green-700 p-4">
+            <div className="border-2 border-blue-700 p-4">
+              <h1 className="text-center text-5xl font-extrabold sm:text-[5rem]">
+                Profile
+              </h1>
+            </div>
+            <div className="flex-auto border-2 border-blue-700">
+              <h1 className="flex-auto text-center text-5xl font-extrabold sm:text-[5rem]">
+                Summary
+              </h1>
+            </div>
+            <div className="flex-auto border-2 border-blue-700">
+              <h1 className="text-center text-5xl font-extrabold sm:text-[5rem]">
+                Skills
+              </h1>
+            </div>
+          </div>
+          <div className="flex flex-col gap-4 border-2 border-green-700 p-4">
+            <h1 className="flex-auto border-2 border-blue-700 p-4 text-center text-5xl font-extrabold sm:text-[5rem]">
+              Cal
+            </h1>
+            <h1 className="flex-auto border-2 border-blue-700 p-4 text-center text-5xl font-extrabold sm:text-[5rem]">
+              Blog
+            </h1>
+          </div>
         </div>
       </main>
     </>
