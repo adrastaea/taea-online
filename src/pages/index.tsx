@@ -15,24 +15,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center gap-4">
-        <h1 className="container pt-64 text-center text-5xl font-bold sm:text-6xl md:text-7xl">
+        <h1 className="container pt-16 text-center text-5xl font-bold sm:text-6xl md:pt-32 md:text-7xl">
           taea.<span className="text-pink-400">online</span>
         </h1>
         <div className="container flex flex-auto flex-col 2xl:flex-row">
           <div className="flex flex-auto flex-col gap-4 p-4">
             <StyledCard className="flex flex-row">
-              <div className="h-48 w-48 overflow-hidden rounded-full">
+              <div className="h-24 w-24 overflow-hidden rounded-full md:h-48 md:w-48">
                 <Image src="/taea.png" alt="Taea" width={300} height={300} />
               </div>
               <div className="flex flex-auto flex-col justify-between p-4">
                 <div className="flex-grow"></div>
                 <div>
-                  <h2 className="text-left text-5xl text-slate-900 md:text-6xl">
+                  <h2 className="text-left text-2xl text-slate-900 md:text-6xl">
                     Taea Vogel
                   </h2>
-                  <div className="my-2 border-t-2 border-slate-400"></div>
-                  <p className="text-left text-xl text-slate-800">
-                    Full stack engineer
+                  <div className="my-2 border-t-2 border-slate-400 border-opacity-30"></div>
+                  <p className="text-md text-left text-slate-800 md:text-xl">
+                    Full Stack Engineer
                   </p>
                 </div>
               </div>
