@@ -38,30 +38,32 @@ export default function Home() {
                 </div>
               </div>
             </StyledCard>
-            <StyledCard className="flex-shrink">
-              <h3 className="p-4 pb-0 text-xl font-extrabold">Who Am I?</h3>
-              <p className="flex-auto p-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                dolorem quos commodi? Sed incidunt odio fuga recusandae iure
-                fugiat mollitia tenetur facere vel porro odit dolorum deleniti
-                exercitationem, ex harum, et illum. Voluptatem veritatis libero
-                optio sit ullam non praesentium?
-              </p>
-            </StyledCard>
-            <StyledCard className="flex-auto">
-              <SkillsTable
-                skills={
-                  new Map([
-                    ["Python", 5],
-                    ["TypeScript", 2],
-                    ["C/C++", 3],
-                    ["Databases", 4],
-                    ["Kubernetes", 3],
-                    ["Project Management", 5],
-                  ])
-                }
-              />
-            </StyledCard>
+            <div className="flex flex-col gap-4 md:flex-row">
+              <StyledCard className="gap-4 md:flex-1">
+                <h3 className="text-xl font-extrabold">Who Am I?</h3>
+                <p className="">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
+                  dolorem quos commodi? Sed incidunt odio fuga recusandae iure
+                  fugiat mollitia tenetur facere vel porro odit dolorum deleniti
+                  exercitationem, ex harum, et illum. Voluptatem veritatis
+                  libero optio sit ullam non praesentium?
+                </p>
+              </StyledCard>
+              <StyledCard className="flex-auto md:flex-1">
+                <SkillsTable
+                  skills={
+                    new Map([
+                      ["Python", 5],
+                      ["C/C++", 3],
+                      ["TypeScript", 2],
+                      ["Databases", 4],
+                      ["Kubernetes", 3],
+                      ["Simulation/Modeling", 5],
+                    ])
+                  }
+                />
+              </StyledCard>
+            </div>
             <StyledCard className="flex-auto">
               <h1 className="text-center text-5xl font-extrabold sm:text-[5rem]">
                 Experiences
