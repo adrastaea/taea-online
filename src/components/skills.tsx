@@ -4,7 +4,7 @@ import React from "react";
 // String is the skill name, Number is the skill level [0-5]
 // Example: { "JavaScript": 5, "React": 4, "Node.js": 3 }
 // Render the skills in a table format with an icon for the skill level
-const SkillsTable: React.FC<{ skills: Map<String, Number> }> = ({ skills }) => {
+const SkillsTable: React.FC<{ skills: Map<string, number> }> = ({ skills }) => {
   return (
     <div className="flex-auto">
       <table className="w-full">
