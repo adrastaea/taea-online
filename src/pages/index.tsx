@@ -56,26 +56,48 @@ export default function Home() {
                       ["Python", 5],
                       ["C/C++", 3],
                       ["TypeScript", 2],
-                      ["Databases", 4],
                       ["Kubernetes", 3],
-                      ["Simulation/Modeling", 5],
+                      ["Databases", 2],
+                      ["Simulation/Modeling", 4],
                     ])
                   }
                 />
               </StyledCard>
             </div>
             <StyledCard className="flex-auto">
-              <h1 className="text-center text-5xl font-extrabold sm:text-[5rem]">
-                Experiences
-              </h1>
+              <h1 className="text-xl font-extrabold">Experiences</h1>
+              <ul>
+                <li>
+                  <h3 className="text-lg font-bold">Software Engineer II</h3>
+                  <i>Superpedestrian</i>
+                  <p>Jan 2023 - Dec 2024</p>
+                </li>
+                <li>
+                  <h3 className="text-lg font-bold">Software Engineer</h3>
+                  <i>Superpedestrian</i>
+                  <p>Aug 2021 - Jan 2023</p>
+                </li>
+                <li>
+                  <h3 className="text-lg font-bold">Field Service Engineer</h3>
+                  <i>Superpedestrian</i>
+                  <p>Dec 2020 - Aug 2021</p>
+                </li>
+                <li>
+                  <h3 className="text-lg font-bold">
+                    Software Development Services Intern
+                  </h3>
+                  <i>Nationwide Insurance</i>
+                  <p>Jun 2019 - Aug 2019</p>
+                </li>
+              </ul>
             </StyledCard>
           </div>
           <div className="flex flex-auto flex-col gap-4 p-4">
-            <StyledCard className="flex flex-col gap-4">
+            {/* <StyledCard className="flex flex-col gap-4">
               <h1 className="flex-auto text-center text-5xl font-extrabold sm:text-[5rem]">
                 Cal
               </h1>
-            </StyledCard>
+            </StyledCard> */}
             <StyledCard className="flex-auto">
               <h1 className="flex-auto text-center text-5xl font-extrabold sm:text-[5rem]">
                 Blog
