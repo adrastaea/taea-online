@@ -42,11 +42,11 @@ export default function Home() {
               <StyledCard className="gap-4 md:flex-1">
                 <h3 className="text-xl font-extrabold">Who Am I?</h3>
                 <p className="">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                  dolorem quos commodi? Sed incidunt odio fuga recusandae iure
-                  fugiat mollitia tenetur facere vel porro odit dolorum deleniti
-                  exercitationem, ex harum, et illum. Voluptatem veritatis
-                  libero optio sit ullam non praesentium?
+                  Hi! I&apos;m Taea. I&apos;ve been a full time software
+                  engineer for a little over 3 years (plus about 2 years of
+                  internships spent writing code even when that wasn&apos;t my
+                  job, seriously ask me about the VBA monstrosities I wrote
+                  before learning Python).
                 </p>
               </StyledCard>
               <StyledCard className="flex-auto md:flex-1">
@@ -88,6 +88,21 @@ export default function Home() {
                   </h3>
                   <i>Nationwide Insurance</i>
                   <p>Jun 2019 - Aug 2019</p>
+                </li>
+                <li>
+                  <h3 className="text-lg font-bold">
+                    Technical Services Intern (Summer) / Assistant Project
+                    Manager (Fall)
+                  </h3>
+                  <i>ENGIE</i>
+                  <p>Jun 2018 - Jan 2019</p>
+                </li>
+                <li>
+                  <h3 className="text-lg font-bold">
+                    Production Engineering Intern
+                  </h3>
+                  <i>Precision Castparts Corporation</i>
+                  <p>Jun 2017 - Dec 2017</p>
                 </li>
               </ul>
             </StyledCard>
@@ -161,8 +176,8 @@ export default function Home() {
                         Designing Data-Intensive Applications
                       </h3>
                       <p>
-                        A book about software engineering best practices and
-                        principles.
+                        Oh this one is so good! Peering behind the curtains of
+                        databases has been a treat for an algo nerd like me.
                       </p>
                     </li>
                   </ul>
