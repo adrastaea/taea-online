@@ -19,7 +19,7 @@ export default function Home() {
         <h1 className="container pt-16 text-center text-5xl font-bold sm:text-6xl md:pt-32 md:text-7xl">
           taea.<span className="text-pink-400">online</span>
         </h1>
-        <div className="container flex flex-auto flex-col 2xl:flex-row">
+        <div className="container flex flex-col 2xl:flex-row">
           <div className="flex flex-auto flex-col gap-4 p-4">
             <StyledCard className="flex flex-row">
               <div className="h-24 w-24 overflow-hidden rounded-full md:h-48 md:w-48">
@@ -65,7 +65,7 @@ export default function Home() {
               </StyledCard>
             </div>
             <StyledCard className="flex-auto">
-              <h1 className="text-xl font-extrabold">Experiences</h1>
+              <h1 className="text-xl font-extrabold">Where Have I Worked?</h1>
               <ul>
                 <li>
                   <h3 className="text-lg font-bold">Software Engineer II</h3>
@@ -92,16 +92,82 @@ export default function Home() {
               </ul>
             </StyledCard>
           </div>
-          <div className="flex flex-auto flex-col gap-4 p-4">
-            {/* <StyledCard className="flex flex-col gap-4">
-              <h1 className="flex-auto text-center text-5xl font-extrabold sm:text-[5rem]">
-                Cal
-              </h1>
-            </StyledCard> */}
+          <div className="flex flex-auto flex-col p-4 pt-0 2xl:pl-0 2xl:pt-4">
             <StyledCard className="flex-auto">
-              <h1 className="flex-auto text-center text-5xl font-extrabold sm:text-[5rem]">
-                Blog
-              </h1>
+              <div className="flex flex-col gap-6">
+                <div className="">
+                  <h1 className="text-xl font-extrabold">
+                    What Am I Working On?
+                  </h1>
+                  <ul>
+                    <li>
+                      <h3 className="text-lg font-bold">How2Meet</h3>
+                      <p>
+                        A lightweight, zero-signup event planning platform
+                        inspired by When2Meet, and an expirement with Python web
+                        frontends in NiceGUI.
+                      </p>
+                    </li>
+                    <li>
+                      <h3 className="text-lg font-bold">taea.online</h3>
+                      <p>This website! My personal website and portfolio.</p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="">
+                  <h1 className="text-xl font-extrabold">
+                    What Am I Learning?
+                  </h1>
+                  <ul>
+                    <li>
+                      <h3 className="text-lg font-bold">NiceGUI</h3>
+                      <p>
+                        A new Python GUI framework wrapping VueJS allowing
+                        Python devlopers build web app front ends in Python,
+                        inject custom JS, use Quasar styled components, and
+                        TailwindCSS. It&apos;s a lot of fun! You can spin up
+                        simple web apps in minutes, and it&apos;s a really
+                        interesting way to build web apps without ever touching
+                        HTML.
+                      </p>
+                    </li>
+                    <li>
+                      <h3 className="text-lg font-bold">Typescript</h3>
+                      <p>
+                        A relic of my past building Angular apps at Nationwide
+                        in 2019. As a Python first developer, I never really
+                        appreciated it, but now that I&apos;m building web apps
+                        with React, I think I get why it&apos;s so popular.
+                      </p>
+                    </li>
+                    <li>
+                      <h3 className="text-lg font-bold">React</h3>
+                      <p>
+                        This website is built with React! At Superpedestrian, we
+                        built our web apps with React, and while it wasn&apos;t
+                        a focus of my team, I would sometimes spend some time
+                        debugging it when I came across a bug in order to write
+                        a good bug ticket. My goal is to be as good with it as I
+                        am with Qt.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+                <div className="">
+                  <h1 className="text-xl font-extrabold">What Am I Reading?</h1>
+                  <ul>
+                    <li>
+                      <h3 className="text-lg font-bold">
+                        Designing Data-Intensive Applications
+                      </h3>
+                      <p>
+                        A book about software engineering best practices and
+                        principles.
+                      </p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </StyledCard>
           </div>
         </div>
