@@ -45,8 +45,8 @@ export default function Home() {
                   Hi! I&apos;m Taea. I&apos;ve been a full time software
                   engineer for a little over 3 years (plus about 2 years of
                   internships spent writing code even when that wasn&apos;t my
-                  job, seriously ask me about the VBA monstrosities I wrote
-                  before learning Python).
+                  job, seriously ask me about the VBA monstrosities I wrote in
+                  my MechE internships before I got serious about SWE).
                 </p>
               </StyledCard>
               <StyledCard className="flex-auto md:flex-1">
