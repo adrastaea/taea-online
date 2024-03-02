@@ -108,7 +108,7 @@ export default function Home() {
               </ul>
             </StyledCard>
           </div>
-          <div className="flex flex-auto flex-col p-4 pt-0 2xl:pl-0 2xl:pt-4">
+          <div className="flex flex-auto flex-col p-4 pt-0 lg:pl-0 lg:pt-4">
             <StyledCard className="flex-auto">
               <div className="flex flex-col gap-6">
                 <div className="">
