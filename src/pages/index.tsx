@@ -20,7 +20,7 @@ export default function Home() {
           <h1 className="flex-1 text-right text-5xl font-bold sm:text-6xl md:text-7xl">
             taea.
           </h1>
-          <h1 className="fade-in-bottom flex-1 text-left text-5xl font-bold text-pink-400 sm:text-6xl md:text-7xl">
+          <h1 className="fade-in-bottom flex-1 text-left text-5xl font-bold text-[#f796b0] sm:text-6xl md:text-7xl">
             online
           </h1>
         </div>
