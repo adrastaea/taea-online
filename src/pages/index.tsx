@@ -16,7 +16,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center gap-4">
-        <div className="container flex flex-row bg-gradient-to-b pl-4 pr-10 pt-16 md:pt-32">
+        <div className="container flex flex-row bg-gradient-to-b pl-4 pr-10 pt-16">
           <h1 className="flex-1 text-right text-5xl font-bold sm:text-6xl md:text-7xl">
             taea.
           </h1>
