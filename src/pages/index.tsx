@@ -17,33 +17,29 @@ export default function Home() {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center gap-4">
         <div className="container flex flex-row bg-gradient-to-b pl-4 pr-10 pt-16 md:pt-32">
-          <h1 className="flex-1 text-right text-5xl font-bold sm:text-6xl  md:text-7xl">
+          <h1 className="flex-1 text-right text-5xl font-bold sm:text-6xl md:text-7xl">
             taea.
           </h1>
           <h1 className="fade-in-bottom flex-1 text-left text-5xl font-bold text-pink-400 sm:text-6xl md:text-7xl">
             online
           </h1>
         </div>
-        <div className="container flex flex-col 2xl:flex-row">
+        <div className="container flex flex-col lg:flex-row">
           <div className="flex flex-auto flex-col gap-4 p-4">
             <StyledCard className="flex flex-row">
-              <div className="h-24 w-24 overflow-hidden rounded-full md:h-48 md:w-48">
+              <div className="h-24 w-24 overflow-hidden rounded-full xl:h-48 xl:w-48">
                 <Image src="/taea.png" alt="Taea" width={300} height={300} />
               </div>
               <div className="flex flex-auto flex-col justify-between p-4">
-                <div className="flex-grow"></div>
-                <div>
-                  <h2 className="text-left text-2xl text-slate-900 md:text-6xl">
-                    Taea Vogel
-                  </h2>
-                  <div className="my-2 border-t-2 border-slate-400 border-opacity-30"></div>
-                  <p className="text-md text-left text-slate-800 md:text-xl">
-                    Full Stack Engineer
-                  </p>
-                </div>
+                <h2 className="flex flex-1 items-end pb-2 text-left text-2xl text-slate-900 xl:text-5xl">
+                  Taea Vogel
+                </h2>
+                <p className="text-md flex-1 border-t-2 border-slate-400 border-opacity-30 pt-2 text-left text-slate-800 md:text-xl">
+                  Full Stack Engineer
+                </p>
               </div>
             </StyledCard>
-            <div className="flex flex-col gap-4 md:flex-row">
+            <div className="flex flex-col gap-4 xl:flex-row">
               <StyledCard className="gap-4 md:flex-1">
                 <h3 className="text-xl font-extrabold">Who Am I?</h3>
                 <p className="">
