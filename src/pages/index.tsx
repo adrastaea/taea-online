@@ -16,9 +16,14 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center gap-4">
-        <h1 className="container pt-16 text-center text-5xl font-bold sm:text-6xl md:pt-32 md:text-7xl">
-          taea.<span className="text-pink-400">online</span>
-        </h1>
+        <div className="container flex flex-row bg-gradient-to-b pl-4 pr-10 pt-16 md:pt-32">
+          <h1 className="flex-1 text-right text-5xl font-bold sm:text-6xl  md:text-7xl">
+            taea.
+          </h1>
+          <h1 className="fade-in-bottom flex-1 text-left text-5xl font-bold text-pink-400 sm:text-6xl md:text-7xl">
+            online
+          </h1>
+        </div>
         <div className="container flex flex-col 2xl:flex-row">
           <div className="flex flex-auto flex-col gap-4 p-4">
             <StyledCard className="flex flex-row">
