@@ -40,7 +40,7 @@ export default function Home() {
               </div>
             </StyledCard>
             <div className="flex flex-col gap-4 xl:flex-row">
-              <StyledCard className="gap-4 md:flex-1">
+              <StyledCard className="flex-auto gap-4 xl:flex-1">
                 <h3 className="text-xl font-extrabold">Who Am I?</h3>
                 <p className="">
                   Hi! I&apos;m Taea. I&apos;ve been a full time software
@@ -50,7 +50,8 @@ export default function Home() {
                   my MechE internships before I got serious about SWE).
                 </p>
               </StyledCard>
-              <StyledCard className="flex-auto md:flex-1">
+              <StyledCard className="flex-auto xl:flex-1">
+                <h3 className="text-xl font-extrabold">What Am I Good At?</h3>
                 <SkillsTable
                   skills={
                     new Map([
@@ -108,81 +109,86 @@ export default function Home() {
               </ul>
             </StyledCard>
           </div>
-          <div className="flex flex-auto flex-col p-4 pt-0 lg:pl-0 lg:pt-4">
-            <StyledCard className="flex-auto">
-              <div className="flex flex-col gap-6">
-                <div className="">
-                  <h1 className="text-xl font-extrabold">
-                    What Am I Working On?
-                  </h1>
-                  <ul>
-                    <li>
-                      <h3 className="text-lg font-bold">How2Meet</h3>
-                      <p>
-                        A lightweight, zero-signup event planning platform
-                        inspired by When2Meet, and an expirement with Python web
-                        frontends in NiceGUI.
-                      </p>
-                    </li>
-                    <li>
-                      <h3 className="text-lg font-bold">taea.online</h3>
-                      <p>This website! My personal website and portfolio.</p>
-                    </li>
-                  </ul>
-                </div>
-                <div className="">
-                  <h1 className="text-xl font-extrabold">
-                    What Am I Learning?
-                  </h1>
-                  <ul>
-                    <li>
-                      <h3 className="text-lg font-bold">NiceGUI</h3>
-                      <p>
-                        A new Python GUI framework wrapping VueJS allowing
-                        Python devlopers build web app front ends in Python,
-                        inject custom JS, use Quasar styled components, and
-                        TailwindCSS. It&apos;s a lot of fun! You can spin up
-                        simple web apps in minutes, and it&apos;s a really
-                        interesting way to build web apps without ever touching
-                        HTML.
-                      </p>
-                    </li>
-                    <li>
-                      <h3 className="text-lg font-bold">Typescript</h3>
-                      <p>
-                        A relic of my past building Angular apps at Nationwide
-                        in 2019. As a Python first developer, I never really
-                        appreciated it, but now that I&apos;m building web apps
-                        with React, I think I get why it&apos;s so popular.
-                      </p>
-                    </li>
-                    <li>
-                      <h3 className="text-lg font-bold">React</h3>
-                      <p>
-                        This website is built with React! At Superpedestrian, we
-                        built our web apps with React, and while it wasn&apos;t
-                        a focus of my team, I would sometimes spend some time
-                        debugging it when I came across a bug in order to write
-                        a good bug ticket. My goal is to be as good with it as I
-                        am with Qt.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
-                <div className="">
-                  <h1 className="text-xl font-extrabold">What Am I Reading?</h1>
-                  <ul>
-                    <li>
-                      <h3 className="text-lg font-bold">
-                        Designing Data-Intensive Applications
-                      </h3>
-                      <p>
-                        Oh this one is so good! Peering behind the curtains of
-                        databases has been a treat for an algo nerd like me.
-                      </p>
-                    </li>
-                  </ul>
-                </div>
+          <div className="flex flex-auto flex-col gap-4 p-4 pt-0 lg:pl-0 lg:pt-4">
+            <StyledCard className="flex-auto md:grow-0">
+              <div className="">
+                <h1 className="text-xl font-extrabold">
+                  What Am I Working On?
+                </h1>
+                <ul>
+                  <li>
+                    <h3 className="text-lg font-bold">How2Meet</h3>
+                    <p>
+                      A lightweight, zero-signup event planning platform
+                      inspired by When2Meet, and an experiment with Python web
+                      frontends in NiceGUI.
+                    </p>
+                  </li>
+                  <li>
+                    <h3 className="text-lg font-bold">taea.online</h3>
+                    <p>This website! My personal website and portfolio.</p>
+                  </li>
+                </ul>
+              </div>
+            </StyledCard>
+            <StyledCard className="flex-auto md:grow-0">
+              <div className="">
+                <h1 className="text-xl font-extrabold">What Am I Learning?</h1>
+                <ul>
+                  <li>
+                    <h3 className="text-lg font-bold">TailwindCSS</h3>
+                    <p>
+                      Finding my CSS Zen with Tailwind. CSS is so simple now!
+                    </p>
+                  </li>
+                  <li>
+                    <h3 className="text-lg font-bold">NiceGUI</h3>
+                    <p>
+                      A new Python GUI framework wrapping VueJS allowing Python
+                      devlopers build web app front ends in Python, inject
+                      custom JS, use Quasar styled components, and TailwindCSS.
+                      It&apos;s a lot of fun! You can spin up simple web apps in
+                      minutes, and it&apos;s a really interesting way to build
+                      web apps without ever touching HTML.
+                    </p>
+                  </li>
+                  <li>
+                    <h3 className="text-lg font-bold">TypeScript</h3>
+                    <p>
+                      A relic of my past building Angular apps at Nationwide in
+                      2019. As a Python first developer, I never really
+                      appreciated it, but now that I&apos;m building web apps
+                      with React, I think I get why it&apos;s so popular.
+                    </p>
+                  </li>
+                  <li>
+                    <h3 className="text-lg font-bold">React</h3>
+                    <p>
+                      This website is built with React! At Superpedestrian, we
+                      built our web apps with React, and while it wasn&apos;t a
+                      focus of my team, I would sometimes spend some time
+                      debugging it when I came across a bug in order to write a
+                      good bug ticket. My goal is to be as good with it as I am
+                      with Qt.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </StyledCard>
+            <StyledCard className="flex-auto md:flex-grow">
+              <div className="">
+                <h1 className="text-xl font-extrabold">What Am I Reading?</h1>
+                <ul>
+                  <li>
+                    <h3 className="text-lg font-bold">
+                      Designing Data-Intensive Applications
+                    </h3>
+                    <p>
+                      Oh this one is so good! Peering behind the curtains of
+                      databases has been a treat for an algo nerd like me.
+                    </p>
+                  </li>
+                </ul>
               </div>
             </StyledCard>
           </div>

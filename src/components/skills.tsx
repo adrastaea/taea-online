@@ -18,7 +18,7 @@ const SkillsTable: React.FC<{ skills: Map<string, number> }> = ({ skills }) => {
           {Array.from(skills.keys()).map((skill) => (
             <tr key={skill.toString()}>
               <td>{skill}</td>
-              <td>
+              <td className="flex flex-shrink-0">
                 {[...Array<number>(Number(skills.get(skill)))].map((_, i) => (
                   <svg
                     key={i}
