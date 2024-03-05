@@ -45,8 +45,10 @@ export default function Home() {
               </div>
             </StyledCard>
             <div className="flex flex-col gap-4 xl:flex-row">
-              <StyledCard className="flex-auto gap-4 xl:flex-1">
-                <h3 className="text-xl font-extrabold">Who Am I?</h3>
+              <StyledCard
+                className="flex-auto gap-4 xl:flex-1"
+                title="Who Am I?"
+              >
                 <p className="">
                   Hi! I&apos;m Taea. I&apos;ve been a full time software
                   engineer for a little over 3 years (plus about 2 years of
@@ -55,8 +57,10 @@ export default function Home() {
                   my MechE internships before I got serious about SWE).
                 </p>
               </StyledCard>
-              <StyledCard className="flex-auto xl:flex-1">
-                <h3 className="text-xl font-extrabold">What Am I Good At?</h3>
+              <StyledCard
+                className="flex-auto xl:flex-1"
+                title="What Am I Good At?"
+              >
                 <SkillsTable
                   skills={
                     new Map([
@@ -73,8 +77,7 @@ export default function Home() {
                 />
               </StyledCard>
             </div>
-            <StyledCard className="flex-auto">
-              <h1 className="text-xl font-extrabold">Where Have I Worked?</h1>
+            <StyledCard className="flex-auto" title="Where Have I Worked?">
               <ul>
                 <li>
                   <h3 className="text-lg font-bold">Software Engineer II</h3>
@@ -117,11 +120,11 @@ export default function Home() {
             </StyledCard>
           </div>
           <div className="flex flex-auto flex-col gap-4 p-4 pt-0 lg:pl-0 lg:pt-4">
-            <StyledCard className="flex-auto md:grow-0">
+            <StyledCard
+              className="flex-auto md:grow-0"
+              title="What Am I Working On?"
+            >
               <div className="">
-                <h1 className="text-xl font-extrabold">
-                  What Am I Working On?
-                </h1>
                 <ul>
                   <li>
                     <h3 className="text-lg font-bold">How2Meet</h3>
@@ -138,9 +141,11 @@ export default function Home() {
                 </ul>
               </div>
             </StyledCard>
-            <StyledCard className="flex-auto md:grow-0">
+            <StyledCard
+              className="flex-auto md:grow-0"
+              title="What Am I Learning?"
+            >
               <div className="">
-                <h1 className="text-xl font-extrabold">What Am I Learning?</h1>
                 <ul>
                   <li>
                     <h3 className="text-lg font-bold">TailwindCSS</h3>
@@ -182,9 +187,11 @@ export default function Home() {
                 </ul>
               </div>
             </StyledCard>
-            <StyledCard className="flex-auto md:flex-grow">
+            <StyledCard
+              className="flex-auto md:flex-grow"
+              title="What Am I Reading?"
+            >
               <div className="">
-                <h1 className="text-xl font-extrabold">What Am I Reading?</h1>
                 <ul>
                   <li>
                     <h3 className="text-lg font-bold">
