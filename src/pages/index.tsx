@@ -28,7 +28,12 @@ export default function Home() {
           <div className="flex flex-auto flex-col gap-4 p-4">
             <StyledCard className="flex flex-row">
               <div className="h-24 w-24 overflow-hidden rounded-full xl:h-48 xl:w-48">
-                <Image src="/taea.png" alt="Taea" width={300} height={300} />
+                <Image
+                  src="/taea-base.jpg"
+                  alt="Taea"
+                  width={200}
+                  height={200}
+                />
               </div>
               <div className="flex flex-auto flex-col justify-between p-4">
                 <h2 className="flex flex-1 items-end pb-2 text-left text-2xl text-slate-900 xl:text-5xl">
@@ -58,9 +63,11 @@ export default function Home() {
                       ["Python", 5],
                       ["C/C++", 3],
                       ["TypeScript", 2],
-                      ["Kubernetes", 3],
-                      ["Databases", 2],
+                      ["CI/CD", 3],
+                      ["Databases", 3],
                       ["Simulation/Modeling", 4],
+                      ["Embedded Systems", 3],
+                      ["Web Development", 2],
                     ])
                   }
                 />
