@@ -28,12 +28,7 @@ export default function Home() {
           <div className="flex flex-auto flex-col gap-4 p-4">
             <StyledCard className="flex flex-row">
               <div className="h-24 w-24 overflow-hidden rounded-full xl:h-48 xl:w-48">
-                <Image
-                  src="/taea-base.jpg"
-                  alt="Taea"
-                  width={200}
-                  height={200}
-                />
+                <Image src="/taea.jpg" alt="Taea" width={600} height={600} />
               </div>
               <div className="flex flex-auto flex-col justify-between p-4">
                 <h2 className="flex flex-1 items-end pb-2 text-left text-2xl text-slate-900 xl:text-5xl">
