@@ -50,11 +50,16 @@ export default function Home() {
                 title="Who Am I?"
               >
                 <p className="">
-                  Hi! I&apos;m Taea. I&apos;ve been a full time software
-                  engineer for a little over 3 years (plus about 2 years of
-                  internships spent writing code even when that wasn&apos;t my
-                  job, seriously ask me about the VBA monstrosities I wrote in
-                  my MechE internships before I got serious about SWE).
+                  Hi! I&apos;m Taea. I&apos;m a full stack engineer with a
+                  passion for the intersection of software and hardware. I
+                  graduated from The Ohio State University with a degree in
+                  Mechanical Engineering in 2020 with a focus in Computer Aided
+                  Design. In every role I&apos;ve ever had, I have found a way
+                  to raise the level of everyone around me with the software
+                  tools I build. I love learning new tech, and pride myself on
+                  being the fullest of full stack engineers from hardware, to
+                  web apps, databases, CI/CD, backend systems, embedded systems,
+                  and beyond.
                 </p>
               </StyledCard>
               <StyledCard
@@ -72,6 +77,8 @@ export default function Home() {
                       ["Simulation/Modeling", 4],
                       ["Embedded Systems", 3],
                       ["Web Development", 2],
+                      ["Qt", 5],
+                      ["Git", 4],
                     ])
                   }
                 />
@@ -176,12 +183,12 @@ export default function Home() {
                   <li>
                     <h3 className="text-lg font-bold">React</h3>
                     <p>
-                      This website is built with React! At Superpedestrian, we
-                      built our web apps with React, and while it wasn&apos;t a
-                      focus of my team, I would sometimes spend some time
-                      debugging it when I came across a bug in order to write a
-                      good bug ticket. My goal is to be as good with it as I am
-                      with Qt.
+                      This website is intended to basically be my React
+                      playground. At Superpedestrian, we built our web apps with
+                      React, and while it wasn&apos;t a focus of my team, I
+                      would sometimes spend some time debugging it when I came
+                      across a bug in order to write a good bug ticket. My goal
+                      is to be as good with it as I am with Qt.
                     </p>
                   </li>
                 </ul>
@@ -198,8 +205,12 @@ export default function Home() {
                       Designing Data-Intensive Applications
                     </h3>
                     <p>
-                      Oh this one is so good! Peering behind the curtains of
-                      databases has been a treat for an algo nerd like me.
+                      Absolute eye opener of a book. I picked this up in Jan
+                      2024 to try to upskill between jobs. I knew a fair bit of
+                      the material from my minor classes at OSU, and keeping up
+                      with the industry, but I the depth of the material in this
+                      has been super helpful. I&apos;m about 1/2 way through and
+                      hope to post a review soon.
                     </p>
                   </li>
                 </ul>
