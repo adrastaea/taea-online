@@ -202,10 +202,10 @@ export default function Home() {
                     <p>
                       Absolute eye opener of a book. I picked this up in Jan
                       2024 to try to upskill between jobs. I knew a fair bit of
-                      the material from my minor classes at OSU, and keeping up
-                      with the industry, but I the depth of the material in this
-                      has been super helpful. I&apos;m about 1/2 way through and
-                      hope to post a review soon.
+                      the concepts from my minor classes at OSU, and keeping up
+                      with the industry, but the depth of the material in this
+                      has been super interesting. I&apos;m about 1/2 way through
+                      and hope to post a review soon.
                     </p>
                   </li>
                 </ul>
