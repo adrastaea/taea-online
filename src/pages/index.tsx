@@ -159,7 +159,7 @@ export default function Home() {
                     <h3 className="text-lg font-bold">NiceGUI</h3>
                     <p>
                       A new Python GUI framework wrapping VueJS allowing Python
-                      devlopers build web app front ends in Python, inject
+                      developers build web app front ends in Python, inject
                       custom JS, use Quasar styled components, and TailwindCSS.
                       It&apos;s a lot of fun! You can spin up simple web apps in
                       minutes, and it&apos;s a really interesting way to build
